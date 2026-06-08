@@ -31,3 +31,4 @@ config.toml
 
 # Local manifest (generated per-machine)
 brew-sync.toml
+*.rec*
