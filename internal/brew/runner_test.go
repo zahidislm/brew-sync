@@ -159,8 +159,8 @@ func TestLeafNameMatching_TapPrefixStripping(t *testing.T) {
 	}
 
 	want := map[string]string{
-		"git":                    "2.53.0",
-		"cockroach":              "26.1.2",
+		"git":                   "2.53.0",
+		"cockroach":             "26.1.2",
 		"mongodb-community@8.0": "8.0.20",
 	}
 	for _, pkg := range leaves {

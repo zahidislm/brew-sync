@@ -6,10 +6,10 @@ import "strings"
 type BrewErrorKind int
 
 const (
-	ErrUnknown         BrewErrorKind = iota
-	ErrDeprecated                    // formula has been deprecated
-	ErrNotFound                      // formula/cask does not exist
-	ErrAlreadyInstalled              // cask app already exists on disk
+	ErrUnknown          BrewErrorKind = iota
+	ErrDeprecated                     // formula has been deprecated
+	ErrNotFound                       // formula/cask does not exist
+	ErrAlreadyInstalled               // cask app already exists on disk
 )
 
 // BrewError wraps a brew command failure with a classified kind.

@@ -104,6 +104,7 @@ func getMachineTag(cfg *config.Config) string {
 	}
 	return ""
 }
+
 // getUpdatedBy returns the current OS username for manifest metadata.
 func getUpdatedBy() string {
 	if u, err := user.Current(); err == nil {
